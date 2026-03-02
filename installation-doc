@@ -1,0 +1,29 @@
+sudo raspi-config
+
+Then, from the configuration CLI, complete the following steps:
+
+Select Advanced Options > PCIe Speed.
+
+Select Yes to enable PCI Gen 3.0 mode.
+
+Select Finish to exit the configuration CLI.
+
+Reboot your Raspberry Pi for your changes to take effect. You can do this from the Terminal with sudo reboot.
+
+sudo apt update
+sudo apt full-upgrade -y
+sudo rpi-eeprom-update -a
+sudo reboot
+
+sudo apt install dkms
+sudo apt install hailo-h10-all
+
+sudo reboot
+
+hailortcli fw-control identify
+
+
+sudo apt update && sudo apt install rpicam-apps
+
+
+rpicam-hello(if rpi-cam is available)

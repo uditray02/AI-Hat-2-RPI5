@@ -1,0 +1,1 @@
+(venv_hailo_apps) ai-hat-embedded@ai-hat-embedded:~/hailo-apps/hailo_apps/python/pipeline_apps/detection_simple $ python detection_simple.py --input /dev/video0

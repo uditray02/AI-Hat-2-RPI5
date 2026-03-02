@@ -1,0 +1,7 @@
+# 1. Clone the repository
+git clone https://github.com/hailo-ai/hailo-apps.git
+cd hailo-apps
+
+# 2. Run the automated installation script
+sudo ./install.sh
+

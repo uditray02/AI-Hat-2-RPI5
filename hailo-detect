@@ -1,0 +1,6 @@
+#!/home/ai-hat-embedded/hailo-apps/venv_hailo_apps/bin/python3
+import sys
+from hailo_apps.python.pipeline_apps.detection.detection import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())

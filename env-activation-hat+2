@@ -1,0 +1,20 @@
+cd hailo-apps
+
+source venv_hailo_apps/bin/activate
+
+source setup_env.sh
+
+pip list | grep hailo
+# You should see packages like hailort, hailo-tappas-core, and hailo-apps.
+
+apt list | grep hailo
+# This shows all installed Hailo-related system packages.
+
+hailortcli fw-control identify
+
+hailo-detect-simple
+
+
+
+Location for codes:
+/home/ai-hat-embedded/hailo-apps/venv_hailo_apps/bin
